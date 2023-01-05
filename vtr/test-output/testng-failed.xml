@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="testRunner1(failed)">
+    <classes>
+      <class name="com.crm.createOrganisation.ToCreateOrganisationTest">
+        <methods>
+          <include name="logoutFromAppln"/>
+          <include name="createOrganisationTest"/>
+          <include name="closeDBconfig"/>
+          <include name="loginToAppln"/>
+          <include name="closeTheBrowser"/>
+          <include name="launchTheBrowser"/>
+          <include name="dbConfig"/>
+        </methods>
+      </class> <!-- com.crm.createOrganisation.ToCreateOrganisationTest -->
+    </classes>
+  </test> <!-- testRunner1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
